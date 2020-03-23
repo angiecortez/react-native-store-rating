@@ -1,7 +1,8 @@
-import { ViewStyle } from 'react-native';
+import { ViewStyle } from "react-native";
 
 export interface IProps {
 	modalTitle: string;
+	modalSubTitle?: string;
 	cancelBtnText: string;
 	totalStarCount: number;
 	defaultStars: number;

@@ -1,18 +1,17 @@
-import { StyleSheet, TextStyle, ViewStyle } from 'react-native';
+import { StyleSheet, TextStyle, ViewStyle } from "react-native";
 
-import { Color } from './Color';
+import { Color } from "./Color";
 
 export let RateModalStyles = StyleSheet.create({
-
 	modalWrapper: {
-		backgroundColor: 'rgba(0,0,0,.5)',
+		backgroundColor: "rgba(0,0,0,.5)",
 		flex: 1,
-		justifyContent: 'center',
-		alignItems: 'center',
+		justifyContent: "center",
+		alignItems: "center"
 	} as ViewStyle,
 
 	bigButton: {
-		width: 130,
+		width: 130
 	} as ViewStyle,
 
 	button: {
@@ -21,55 +20,63 @@ export let RateModalStyles = StyleSheet.create({
 		height: 30,
 		marginHorizontal: 5,
 		minWidth: 70,
-		paddingHorizontal: 5,
+		paddingHorizontal: 5
 	} as ViewStyle,
 
 	buttonCancel: {
-		backgroundColor: Color.Transparent,
+		backgroundColor: Color.Transparent
 	},
 
 	buttonCancelText: {
 		color: Color.Grey[500],
-		fontWeight: '500',
-		letterSpacing: 1,
+		fontWeight: "500",
+		letterSpacing: 1
 	} as TextStyle,
 
 	buttonContainer: {
-		alignItems: 'center',
-		alignSelf: 'flex-end',
-		flexDirection: 'row',
-		justifyContent: 'center',
+		alignItems: "center",
+		alignSelf: "flex-end",
+		flexDirection: "row",
+		justifyContent: "center",
 		marginVertical: 20,
-		paddingHorizontal: 20,
+		paddingHorizontal: 20
 	} as ViewStyle,
 
 	buttonText: {
-		fontWeight: '500',
+		fontWeight: "500"
 	} as TextStyle,
 
 	errorText: {
 		paddingLeft: 20,
-		color: Color.Red[500],
+		color: Color.Red[500]
 	} as TextStyle,
 
 	modalContainer: {
 		backgroundColor: Color.White[500],
 		borderRadius: 10,
-		marginHorizontal: 20,
+		marginHorizontal: 20
 	} as ViewStyle,
 
 	textBox: {
 		borderBottomColor: Color.LightGreen[600],
 		borderBottomWidth: 1,
 		borderWidth: 0,
-		margin: 20,
+		margin: 20
 	} as ViewStyle,
 
 	title: {
 		fontSize: 20,
-		fontWeight: '500',
+		fontWeight: "500",
 		marginHorizontal: 30,
 		marginVertical: 15,
-		textAlign: 'center',
+		textAlign: "center"
 	} as TextStyle,
+
+	subTitle: {
+		fontSize: 12,
+		fontWeight: "500",
+		marginHorizontal: 30,
+		marginVertical: 15,
+		textAlign: "center"
+	} as TextStyle
 });
