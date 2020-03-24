@@ -12,6 +12,7 @@ export class RateModal extends Component<IProps, IState> {
 	public static defaultProps = {
 		modalTitle: "How many stars do you give to this app?",
 		modalSubTitle: "How many stars do you give to this app?",
+
 		cancelBtnText: "Cancel",
 		totalStarCount: 5,
 		defaultStars: 5,
@@ -107,7 +108,8 @@ export class RateModal extends Component<IProps, IState> {
 			button,
 			buttonCancel,
 			buttonCancelText,
-			subTitle
+			subTitle,
+			textBox
 		} = RateModalStyles;
 		const {
 			starLabels,
@@ -122,8 +124,12 @@ export class RateModal extends Component<IProps, IState> {
 
 		return (
 			<React.Fragment>
-				<Text style={title}>{modalTitle}</Text>
-				<Text style={subTitle}>{modalSubTitle}</Text>
+				<View style={textBox}>
+					<Text style={title}>{modalTitle}</Text>
+
+					<Text style={subTitle}>{modalSubTitle}</Text>
+				</View>
+
 				<AirbnbRating
 					count={totalStarCount}
 					defaultRating={defaultStars}

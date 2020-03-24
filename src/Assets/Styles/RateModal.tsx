@@ -73,7 +73,7 @@ export let RateModalStyles = StyleSheet.create({
 	} as TextStyle,
 
 	subTitle: {
-		fontSize: 12,
+		fontSize: 14,
 		fontWeight: "500",
 		marginHorizontal: 30,
 		marginVertical: 15,
