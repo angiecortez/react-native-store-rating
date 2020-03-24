@@ -123,7 +123,7 @@ export class RateModal extends Component<IProps, IState> {
 
 		return (
 			<React.Fragment>
-				<View
+				{/* <View
 					style={{
 						display: "flex",
 						justifyContent: "center",
@@ -137,7 +137,7 @@ export class RateModal extends Component<IProps, IState> {
 							uri: "https://reactnative.dev/img/tiny_logo.png"
 						}}
 					/>
-				</View>
+				</View> */}
 
 				<View style={textBox}>
 					<Text style={title}>{modalTitle}</Text>
