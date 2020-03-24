@@ -27,7 +27,7 @@ exports.RateModalStyles = react_native_1.StyleSheet.create({
 		backgroundColor: "#e8efff"
 	},
 	buttonCancelText: {
-		color: Color_1.Color.Grey[300],
+		color: Color_1.Color.Grey[500],
 		fontWeight: "500",
 		letterSpacing: 1
 	},
