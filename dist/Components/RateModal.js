@@ -225,6 +225,7 @@ class RateModal extends react_1.Component {
 }
 RateModal.defaultProps = {
 	modalTitle: "How many stars do you give to this app?",
+	modalSubTitle: "How many stars do you give to this app?",
 	cancelBtnText: "Cancel",
 	totalStarCount: 5,
 	defaultStars: 5,

@@ -140,6 +140,7 @@ export class RateModal extends Component<IProps, IState> {
 
 				{/* <View style={buttonContainer}> */}
 				<View>
+					<View style={{ flex: 1 }}></View>
 					<Button
 						text={cancelBtnText}
 						containerStyle={[button, buttonCancel]}
