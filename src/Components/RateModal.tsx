@@ -101,11 +101,10 @@ export class RateModal extends Component<IProps, IState> {
 		);
 	}
 
-	private renderRatingView(): JSX.Element {
+	private renderRatingView() {
 		const {
 			title,
 			subTitle,
-			buttonContainer,
 			button,
 			buttonCancel,
 			buttonCancelText,
@@ -119,8 +118,7 @@ export class RateModal extends Component<IProps, IState> {
 			defaultStars,
 			rateBtnText,
 			modalTitle,
-			modalSubTitle,
-			image
+			modalSubTitle
 		} = this.props;
 
 		return (
@@ -133,7 +131,12 @@ export class RateModal extends Component<IProps, IState> {
 						padding: 20
 					}}
 				>
-					{image}
+					<Image
+						style={{ width: 50, height: 50 }}
+						source={{
+							uri: "https://reactnative.dev/img/tiny_logo.png"
+						}}
+					/>
 				</View>
 
 				<View style={textBox}>
