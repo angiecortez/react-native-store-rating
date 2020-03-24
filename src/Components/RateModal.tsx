@@ -126,16 +126,7 @@ export class RateModal extends Component<IProps, IState> {
 				<View style={textBox}>
 					<Text style={title}>{modalTitle}</Text>
 
-					<Text
-						style={{
-							fontSize: 14,
-							fontWeight: "500",
-							marginHorizontal: 40,
-							textAlign: "center"
-						}}
-					>
-						{modalSubTitle}
-					</Text>
+					<Text style={title}>{modalSubTitle}</Text>
 				</View>
 
 				<AirbnbRating
