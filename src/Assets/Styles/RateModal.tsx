@@ -77,6 +77,7 @@ export let RateModalStyles = StyleSheet.create({
 		fontWeight: "500",
 		marginHorizontal: 30,
 		marginVertical: 15,
+		padding: 30,
 		textAlign: "center"
 	} as TextStyle
 });
