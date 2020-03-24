@@ -58,6 +58,7 @@ exports.RateModalStyles = react_native_1.StyleSheet.create({
 		margin: 20
 	},
 	title: {
+		color: "#016099",
 		fontSize: 20,
 		fontWeight: "500",
 		marginHorizontal: 30,
@@ -65,10 +66,11 @@ exports.RateModalStyles = react_native_1.StyleSheet.create({
 		textAlign: "center"
 	},
 	subTitle: {
+		color: "#1a6fa3",
 		fontSize: 14,
 		fontWeight: "500",
 		marginHorizontal: 30,
-		marginVertical: 15,
+		marginVertical: 5,
 		textAlign: "center"
 	}
 });
