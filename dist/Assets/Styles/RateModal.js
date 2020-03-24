@@ -15,13 +15,15 @@ exports.RateModalStyles = react_native_1.StyleSheet.create({
 	button: {
 		backgroundColor: "#1963FF",
 		// backgroundColor: Color_1.Color.LightGreen[600],
+		borderRadius: 10,
 		flex: 0,
 		fontWeight: "500",
 		height: 40,
 		marginHorizontal: 10,
 		marginVertical: 5,
 		minWidth: 70,
-		paddingHorizontal: 5
+		paddingHorizontal: 5,
+		fontWeight: "500"
 	},
 	buttonCancel: {
 		// backgroundColor: Color_1.Color.Transparent
