@@ -89,6 +89,7 @@ class RateModal extends react_1.Component {
 	renderRatingView() {
 		const {
 			title,
+			subTitle,
 			buttonContainer,
 			button,
 			buttonCancel,
