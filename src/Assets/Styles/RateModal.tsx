@@ -54,7 +54,7 @@ export let RateModalStyles = StyleSheet.create({
 	modalContainer: {
 		backgroundColor: Color.White[500],
 		borderRadius: 10,
-		marginHorizontal: 20
+		marginHorizontal: 15
 	} as ViewStyle,
 
 	textBox: {
@@ -66,6 +66,13 @@ export let RateModalStyles = StyleSheet.create({
 
 	title: {
 		fontSize: 20,
+		fontWeight: "500",
+		marginHorizontal: 30,
+		marginVertical: 15,
+		textAlign: "center"
+	} as TextStyle,
+	subTitle: {
+		fontSize: 14,
 		fontWeight: "500",
 		marginHorizontal: 30,
 		marginVertical: 15,

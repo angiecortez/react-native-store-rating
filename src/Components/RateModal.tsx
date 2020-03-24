@@ -104,6 +104,7 @@ export class RateModal extends Component<IProps, IState> {
 	private renderRatingView(): JSX.Element {
 		const {
 			title,
+			subTitle,
 			buttonContainer,
 			button,
 			buttonCancel,
@@ -126,7 +127,7 @@ export class RateModal extends Component<IProps, IState> {
 				<View style={textBox}>
 					<Text style={title}>{modalTitle}</Text>
 
-					<Text style={title}>{modalSubTitle}</Text>
+					<Text style={subTitle}>{modalSubTitle}</Text>
 				</View>
 
 				<AirbnbRating
@@ -139,7 +140,6 @@ export class RateModal extends Component<IProps, IState> {
 
 				{/* <View style={buttonContainer}> */}
 				<View>
-					<View style={{ flex: 1 }}></View>
 					<Button
 						text={cancelBtnText}
 						containerStyle={[button, buttonCancel]}
