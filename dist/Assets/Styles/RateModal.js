@@ -16,6 +16,7 @@ exports.RateModalStyles = react_native_1.StyleSheet.create({
 		backgroundColor: "#1963FF",
 		// backgroundColor: Color_1.Color.LightGreen[600],
 		flex: 0,
+		fontWeight: "500",
 		height: 40,
 		marginHorizontal: 10,
 		marginVertical: 5,
@@ -28,7 +29,6 @@ exports.RateModalStyles = react_native_1.StyleSheet.create({
 	},
 	buttonCancelText: {
 		color: Color_1.Color.Grey[500],
-		fontWeight: "500",
 		letterSpacing: 1
 	},
 	buttonContainer: {

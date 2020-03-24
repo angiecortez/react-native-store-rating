@@ -154,7 +154,7 @@ export class RateModal extends Component<IProps, IState> {
 				/>
 
 				{/* <View style={buttonContainer}> */}
-				<View>
+				<View style={{ padding: 10 }}>
 					<Button
 						text={cancelBtnText}
 						containerStyle={[button, buttonCancel]}
@@ -162,7 +162,7 @@ export class RateModal extends Component<IProps, IState> {
 						onPress={this.onClosed.bind(this)}
 					/>
 				</View>
-				<View>
+				<View style={{ padding: 10 }}>
 					<Button
 						text={rateBtnText}
 						containerStyle={button}

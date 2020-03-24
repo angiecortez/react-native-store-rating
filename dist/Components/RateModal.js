@@ -142,7 +142,7 @@ class RateModal extends react_1.Component {
 			}),
 			react_1.default.createElement(
 				react_native_1.View,
-				null,
+				{ style: { padding: 10 } },
 				react_1.default.createElement(Button_1.Button, {
 					text: cancelBtnText,
 					containerStyle: [button, buttonCancel],
