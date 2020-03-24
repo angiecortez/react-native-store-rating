@@ -70,14 +70,5 @@ export let RateModalStyles = StyleSheet.create({
 		marginHorizontal: 30,
 		marginVertical: 15,
 		textAlign: "center"
-	} as TextStyle,
-
-	subTitle: {
-		fontSize: 14,
-		fontWeight: "500",
-		marginHorizontal: 30,
-		marginVertical: 15,
-		padding: 30,
-		textAlign: "center"
 	} as TextStyle
 });
