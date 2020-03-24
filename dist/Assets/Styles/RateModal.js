@@ -18,6 +18,7 @@ exports.RateModalStyles = react_native_1.StyleSheet.create({
 		flex: 0,
 		height: 40,
 		marginHorizontal: 10,
+		marginVertical: 5,
 		minWidth: 70,
 		paddingHorizontal: 5
 	},
