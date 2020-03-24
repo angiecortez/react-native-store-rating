@@ -3,7 +3,7 @@ import { IProps, IState } from "../Interfaces/IRateModal";
 export declare class RateModal extends Component<IProps, IState> {
 	static defaultProps: {
 		modalTitle: string;
-		modalSubTitle: string;
+		modalSubTitle: string | any;
 		cancelBtnText: string;
 		totalStarCount: number;
 		defaultStars: number;
