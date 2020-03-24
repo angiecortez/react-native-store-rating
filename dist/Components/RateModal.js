@@ -17,6 +17,7 @@ const react_native_ratings_1 = require("react-native-ratings");
 const RateModal_1 = require("../Assets/Styles/RateModal");
 const Button_1 = require("./Button");
 const TextBox_1 = require("./TextBox");
+
 class RateModal extends react_1.Component {
 	constructor(props) {
 		super(props);
@@ -108,6 +109,20 @@ class RateModal extends react_1.Component {
 		return react_1.default.createElement(
 			react_1.default.Fragment,
 			null,
+			react_1.default.createElement(
+				react_1.default.View,
+				{
+					style: {
+						display: "flex",
+						justifyContent: "center",
+						width: "100%",
+						padding: 20
+					}
+				},
+				react_1.default.createElement(react_native_1.Image, {
+					style: { width: 50, height: 50 }
+				})
+			),
 			react_1.default.createElement(
 				react_native_1.Text,
 				{ style: title },
