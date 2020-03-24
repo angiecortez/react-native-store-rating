@@ -115,7 +115,7 @@ class RateModal extends react_1.Component {
 			),
 			react_1.default.createElement(
 				react_native_1.Text,
-				{ style: subTitle },
+				{ style: title },
 				modalSubTitle
 			),
 			react_1.default.createElement(react_native_ratings_1.AirbnbRating, {

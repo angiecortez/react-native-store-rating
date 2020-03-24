@@ -137,7 +137,8 @@ export class RateModal extends Component<IProps, IState> {
 					onFinishRating={(e: number) => this.onStarSelected(e)}
 				/>
 
-				<View style={buttonContainer}>
+				{/* <View style={buttonContainer}> */}
+				<View>
 					<View style={{ flex: 1 }}></View>
 					<Button
 						text={cancelBtnText}
