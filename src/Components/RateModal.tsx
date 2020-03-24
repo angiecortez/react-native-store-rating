@@ -119,7 +119,8 @@ export class RateModal extends Component<IProps, IState> {
 			defaultStars,
 			rateBtnText,
 			modalTitle,
-			modalSubTitle
+			modalSubTitle,
+			image
 		} = this.props;
 
 		return (
@@ -132,12 +133,7 @@ export class RateModal extends Component<IProps, IState> {
 						padding: 20
 					}}
 				>
-					<Image
-						style={{ width: 50, height: 50 }}
-						source={{
-							uri: "https://reactnative.dev/img/tiny_logo.png"
-						}}
-					/>
+					{image}
 				</View>
 
 				<View style={textBox}>

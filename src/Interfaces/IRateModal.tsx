@@ -2,6 +2,7 @@ import { ViewStyle } from "react-native";
 
 export interface IProps {
 	modalTitle: string;
+	image?: any;
 	modalSubTitle?: string | any;
 	cancelBtnText: string;
 	totalStarCount: number;
