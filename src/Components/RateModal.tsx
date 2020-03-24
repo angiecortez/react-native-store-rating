@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Linking, Modal, Platform, Text, View } from "react-native";
+import { Linking, Modal, Platform, Text, View, Image } from "react-native";
 import { AirbnbRating } from "react-native-ratings";
 
 import { RateModalStyles } from "../Assets/Styles/RateModal";
@@ -124,6 +124,22 @@ export class RateModal extends Component<IProps, IState> {
 
 		return (
 			<React.Fragment>
+				<View
+					style={{
+						display: "flex",
+						justifyContent: "center",
+						width: "100%",
+						padding: 20
+					}}
+				>
+					<Image
+						style={{ width: 50, height: 50 }}
+						source={{
+							uri: "https://reactnative.dev/img/tiny_logo.png"
+						}}
+					/>
+				</View>
+
 				<View style={textBox}>
 					<Text style={title}>{modalTitle}</Text>
 
@@ -140,13 +156,14 @@ export class RateModal extends Component<IProps, IState> {
 
 				{/* <View style={buttonContainer}> */}
 				<View>
-					<View style={{ flex: 1 }}></View>
 					<Button
 						text={cancelBtnText}
 						containerStyle={[button, buttonCancel]}
 						textStyle={buttonCancelText}
 						onPress={this.onClosed.bind(this)}
 					/>
+				</View>
+				<View>
 					<Button
 						text={rateBtnText}
 						containerStyle={button}
