@@ -91,7 +91,6 @@ class RateModal extends react_1.Component {
 		const {
 			title,
 			subTitle,
-			buttonContainer,
 			button,
 			buttonCancel,
 			buttonCancelText

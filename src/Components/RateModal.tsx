@@ -231,6 +231,8 @@ export class RateModal extends Component<IProps, IState> {
 			Platform.OS === "ios"
 				? Linking.openURL(iTunesStoreUrl)
 				: Linking.openURL(playStoreUrl);
+
+			// this.props.saveRate(this.state.rating )
 		} else {
 			this.setState({ showContactForm: true });
 		}
