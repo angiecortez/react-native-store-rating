@@ -13,7 +13,7 @@ exports.RateModalStyles = react_native_1.StyleSheet.create({
 		width: 130
 	},
 	button: {
-		backgroundColor: "#1963FF",
+		backgroundColor: "#016099",
 		// backgroundColor: Color_1.Color.LightGreen[600],
 		borderRadius: 10,
 		flex: 0,
@@ -68,7 +68,7 @@ exports.RateModalStyles = react_native_1.StyleSheet.create({
 		textAlign: "center"
 	},
 	subTitle: {
-		color: "#1a6fa3",
+		color: "#016099",
 		fontSize: 14,
 		fontWeight: "500",
 		marginHorizontal: 30,
